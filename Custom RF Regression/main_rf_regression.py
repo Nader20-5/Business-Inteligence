@@ -90,7 +90,7 @@ def main():
     
     # 1. Load Data
     print("\n[1/7] Loading data...")
-    dataset = pd.read_csv('../Regression models/student-por.csv')
+    dataset = pd.read_csv('D:\My-Github\Business-Inteligence\Regression models\student-por.csv')
     print(f"[OK] Data Loaded. Original Shape: {dataset.shape}")
     
     # Drop Walc and Dalc
